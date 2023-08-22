@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Introduction</title>
+        <link rel="stylesheet" href="nigeria.css">
+    </head>
+    <body>
+        <div class="content">
+        <a href="general_information.html">General Information</a>
+        <a href="society.html">Society</a>
+        <a href="history.html">Brief History Of Nigeria</a>
+        <a href="customs.html">Customs & Lifestyle Of Nigeria</a>
+        <a href="holidays.html">Holidays</a>
+        <a href="visiting.html">Visiting</a>
+        <a href="attractions.html">Attractions</a>
+        <div class="index">
+            <h1>Introduction</h1>
+        </div>
+        <p>Nigeria the heartbeat of Africa, Nigeria is a country located in West Africa, bordered by Benin, Cameroon, Chad, and Niger. With a population of over 211 million people, it is the most populous country in Africa and the seventh-most populous country in the world. Nigeria is known for its oil reserves, political instability, and diverse cultural heritage.
+
+            The country is divided into 36 states and one Federal Capital Territory, with Abuja as the capital city. Nigeria has a mixed economy driven by its oil exports, agriculture, manufacturing, and services sectors. Despite its wealth in natural resources and potential for economic growth, Nigeria struggles with high levels of poverty, unemployment, and corruption.
+            
+            Nigeria's official language is English, though over 500 languages are spoken in the country. Christianity and Islam are the most widely practiced religions in Nigeria, with traditional African religions also being prominent in some regions.
+            
+            Nigeria has a rich cultural heritage, with a diverse range of traditions, music, art, and cuisines. Popular Nigerian music genres include Afrobeat, Highlife, and Juju music. Nigerian cuisine is known for its variety and spices, with dishes like jollof rice, suya, and egusi soup being popular in the country and beyond. Despite its challenges, Nigeria remains a key player in West Africa and the world, with a rich culture and potential for growth and development.
+            </p>
+        <div class="image">
+            <img src="image7.jpg" alt="Nigerian children" id = image>
+        </div>
+    </div>
+        <div class="footer">
+        </div>
+    </body>
+</html>

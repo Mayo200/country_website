@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Brief History Of Nigeria</title>
+        <link rel="stylesheet" href="nigeria.css">
+    </head>
+    <body>
+        <a href="index.html">Introduction</a>
+        <a href="general_information.html">General Information</a>
+        <a href="society.html">Society</a>
+        <a href="customs.html">Customs & Lifestyle Of Nigeria</a>
+        <a href="holidays.html">Holidays</a>
+        <a href="visiting.html">Visiting</a>
+        <a href="attractions.html">Attractions</a>
+        <div class="history">
+            <h1>Brief History Of Nigeria</h1>
+        </div>
+        <p>Nigeria was ruled by military groups from 1966 to 1979 and from 1983 to 1999. Civil war between the federal regime and the previous Eastern region, Biafra(1967–70) ,ended in Biafra’s surrender afterwards the death by starvation of maybe a million Biafrans. The government’s execution of Ken Saro-Wiwa in 1995 led to international sanctions, and civilian govern was by and by reestablished in 1999 with the election of a president. Ethnic strife formerly held in check by periods of military rule erupted in the beforetime twenty-first century, as did demonstrates over oil fabrication in the Niger delta. Friction additionally enhanced between Muslims and Christians afterwards several of the northern and central states adopted Islamic law.
+        </p>
+        <div class="source">
+        <a href="https://www.britannica.com/summary/Nigeria#:~:text=The%20area%20began%20to%20come,and%20from%201983%20to%201999">Source</a>
+    </div>
+    <div class="image">
+        <img src="image19.jpg" alt="info" id = image>
+    </div>
+    <div class="footer">
+    </div>
+    </body>
+</html>

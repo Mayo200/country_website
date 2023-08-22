@@ -1,0 +1,47 @@
+import re
+import sys
+
+def main():
+	#print(convert(input("Hours: ")))
+	print(convert("12 AM to 9 PM"))
+
+
+def convert(s):
+	'''global evening_hrs
+	#evening_hrs = ""
+	global morning_hr'''
+	time = re.search(r"^([0-9]?[0-9])(:[0-5][0-9])?[ ]([A|P][M]) to ([0-1]?[0-9])(:[0-5][0-9])?[ ]([A|P][M])$", s)
+	if time:
+		if time.group(3) == "AM":
+			if time.group(1) != "12":
+				morning_hr = "0" + time.group(1)
+			elif time.group(1) == "12": #12 AM != 00:00 and 12 PM != 12:00
+				morning_hr = "00"
+		elif time.group(6) == "PM":
+			if time.group(4) == "12": #12 AM != 00:00 and 12 PM != 12:00
+				evening_hrs = "12"
+			elif time.group(4) != "12":
+				evening_hrs = int(time.group(4)) + 12
+
+		if time.group(6) == "AM":
+			evening_hrs = "0" + time.group(4)
+		elif time.group(3) == "PM":
+			morning_hr = int(time.group(1)) + 12
+
+		if time.group(2) != None:
+			morning_min = time.group(2)
+		else:
+			morning_min = ":00"
+
+		if time.group(5) != None:
+			evening_mins = time.group(5)
+		else:
+			evening_mins = ":00"
+		con = re.sub(r"^([0-9]?[0-9])(:[0-5][0-9])?[ ][A|P][M] to ([0-1]?[0-9])(:[0-5][0-9])?[ ][A|P][M]$",f"{str(morning_hr)}{morning_min} to {str(evening_hrs)}{evening_mins}", s)
+		return con
+	raise ValueError
+
+
+
+if __name__ == "__main__":
+	main()
